@@ -3,7 +3,7 @@ import { HomeBannerContainer } from './styles';
 
 export default function HomeBanner(): JSX.Element {
   return (
-    <HomeBannerContainer>
+    <HomeBannerContainer id="Home">
       <h2>
         <span>Donghoon, Kang</span>
       </h2>

@@ -19,10 +19,14 @@ export const HeaderContainer = styled.header`
     margin: auto 2rem;
     display: flex;
     align-items: center;
-    color: #03045e;
     a {
       margin: 0 1.125rem;
+      color: #03045e;
+      text-decoration: none;
       cursor: pointer;
+      :hover {
+        color: #1974d2;
+      }
     }
     button {
       margin-left: 1.125rem;
@@ -34,7 +38,13 @@ export const HeaderContainer = styled.header`
       border: 1px solid #03045e;
       border-radius: 8px;
       color: #03045e;
+      fill: #03045e;
       cursor: pointer;
+      :hover {
+        border: 1px solid #1974d2;
+        color: #1974d2;
+        fill: #1974d2;
+      }
     }
   }
 `;

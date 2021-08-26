@@ -77,6 +77,7 @@ export const AboutInfoContainer = styled.section`
           align-items: center;
           font-weight: 700;
           color: #03045e;
+          fill: #03045e;
         }
       }
       ul:last-of-type {

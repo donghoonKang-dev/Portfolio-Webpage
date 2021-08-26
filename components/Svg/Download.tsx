@@ -1,11 +1,7 @@
 import React from 'react';
 import { DownloadContainer } from './styles';
 
-type DownloadProps = {
-  black: string;
-};
-
-export default function Download({ black }: DownloadProps): JSX.Element {
+export default function Download(): JSX.Element {
   return (
     <DownloadContainer
       xmlns="http://www.w3.org/2000/svg"
@@ -13,7 +9,6 @@ export default function Download({ black }: DownloadProps): JSX.Element {
       height="24px"
       viewBox="0 0 24 24"
       width="24px"
-      fill={black}
     >
       <g>
         <rect fill="none" height="24" width="24" />

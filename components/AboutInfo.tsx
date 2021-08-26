@@ -8,7 +8,7 @@ import Certificate from './Svg/Certificate';
 
 export default function AboutInfo(): JSX.Element {
   return (
-    <AboutInfoContainer>
+    <AboutInfoContainer id="About">
       <article>
         <h3>
           <span>강동훈</span>
@@ -18,21 +18,21 @@ export default function AboutInfo(): JSX.Element {
           <ul>
             <li>
               <h4>
-                <Calendar black="#03045e" />
+                <Calendar />
                 Birth
               </h4>
             </li>
             <li>1997.03.25</li>
             <li>
               <h4>
-                <Location black="#03045e" />
+                <Location />
                 Location
               </h4>
             </li>
             <li>Seoul, Republic of Korea</li>
             <li>
               <h4>
-                <Education black="#03045e" />
+                <Education />
                 Education
               </h4>
             </li>
@@ -45,7 +45,7 @@ export default function AboutInfo(): JSX.Element {
           <ul>
             <li>
               <h4>
-                <Award black="#03045e" />
+                <Award />
                 Award
               </h4>
             </li>
@@ -53,7 +53,7 @@ export default function AboutInfo(): JSX.Element {
             <li>2021.1학기 캡스톤 디자인 우수작품상</li>
             <li>
               <h4>
-                <Certificate black="#03045e" />
+                <Certificate />
                 Certificate
               </h4>
             </li>
